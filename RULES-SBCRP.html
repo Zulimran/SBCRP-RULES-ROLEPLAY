@@ -1,0 +1,212 @@
+<!doctype html>
+
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SBCRP - Rulebook & Policies (Versi Profesional)</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2;--accent:#6ee7b7;--accent2:#60a5fa;--danger:#fb7185}
+    html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:linear-gradient(180deg,#071022 0%, #081224 100%);color:#e6eef6}
+    .container{max-width:980px;margin:32px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:12px;box-shadow:0 6px 30px rgba(2,6,23,0.6)}
+    header{display:flex;align-items:center;gap:16px}
+    header .logo{width:60px;height:60px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:flex;align-items:center;justify-content:center;border-radius:10px;font-weight:700;color:#04202a}
+    h1{margin:0;font-size:1.6rem}
+    p.lead{color:var(--muted);margin-top:6px}
+    nav.toc{margin-top:18px;padding:14px;background:rgba(255,255,255,0.02);border-radius:10px}
+    nav.toc ol{margin:0;padding-left:18px;color:var(--muted)}
+    section.rule{margin-top:20px;padding:18px;background:rgba(255,255,255,0.01);border-radius:10px}
+    h2{margin:0 0 8px 0}
+    ol.num{padding-left:20px}
+    ul{margin:8px 0 8px 24px}
+    .table{width:100%;border-collapse:collapse;margin-top:12px}
+    .table th,.table td{padding:8px;border-bottom:1px solid rgba(255,255,255,0.03);text-align:left}
+    .muted{color:var(--muted)}
+    .danger{color:var(--danger)}
+    footer{margin-top:22px;color:var(--muted);font-size:0.9rem}
+    code{background:rgba(255,255,255,0.03);padding:2px 6px;border-radius:6px}
+    .note{background:rgba(96,165,250,0.06);padding:10px;border-left:4px solid var(--accent2);border-radius:6px;color:var(--muted)}
+    @media (max-width:640px){.container{margin:12px;padding:16px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">SB</div>
+      <div>
+        <h1>SBCRP — Rulebook & Policies</h1>
+        <p class="lead">Versi profesional, disusun untuk server LAC (Los Angeles Crimes) — campuran (real-life, gangs, law enforcement). Semua poin bernomor agar mudah rujukan.</p>
+      </div>
+    </header><nav class="toc">
+  <strong>Daftar Isi</strong>
+  <ol>
+    <li>Pengantar & Etika Server</li>
+    <li>Aturan Umum (General Rules)</li>
+    <li>Aturan IC (In-Character)</li>
+    <li>Aturan OOC (Out-of-Character)</li>
+    <li>Break Rules & Pelanggaran (Offenses & Penalties)</li>
+    <li>Aturan Khusus (Police, Medics, Gangs, Civilians)</li>
+    <li>Peran Staff & Tugas Admin</li>
+    <li>Prosedur Banding & Appeal</li>
+    <li>Glosarium & Singkatan RP</li>
+    <li>Lampiran: Contoh Situasi RP</li>
+  </ol>
+</nav>
+
+<section class="rule" id="1">
+  <h2>1. Pengantar & Etika Server</h2>
+  <ol class="num">
+    <li><strong>1.1 Tujuan:</strong> SBCRP bertujuan menyediakan pengalaman RP berkualitas tinggi untuk pemain LAC dengan campuran real-life, kriminal, dan penegakan hukum.</li>
+    <li><strong>1.2 Etika Umum:</strong> Hormati pemain lain, hindari pelecehan, rasisme, dan perilaku toksik. Server ini menolak hate-speech dan doxxing.</li>
+    <li><strong>1.3 Spirit RP:</strong> Prioritaskan narasi, keputusan karakter yang masuk akal, dan konsekuensi. RP yang serba instan atau yang menghancurkan pengalaman orang lain akan diberi sanksi.</li>
+    <li><strong>1.4 Kepatuhan Teknis:</strong> Ikuti aturan platform LAC (misal: larangan cheat, exploit, dan penggunaan mod ilegal). Pelanggaran teknis dapat berakibat ban permanen tanpa peringatan.</li>
+  </ol>
+</section>
+
+<section class="rule" id="2">
+  <h2>2. Aturan Umum (General Rules)</h2>
+  <ol class="num">
+    <li><strong>2.1 Akun & Multi-Accounting:</strong> Satu pemain = satu akun utama. Multi-account untuk menghindari hukuman dilarang.</li>
+    <li><strong>2.2 Identitas dan Nama:</strong> Nama karakter harus realistis dan sesuai setting. Nama yang mempromosikan grup terlarang, kata-kata ofensif, atau nama staff dilarang.</li>
+    <li><strong>2.3 Bahasa:</strong> Gunakan bahasa yang dimengerti di area publik. Hindari bahasa ofensif; untuk urusan internal guild/gang, tetap jaga batas OOC.</li>
+    <li><strong>2.4 Exploit & Cheat:</strong> Segera laporkan bug. Menggunakan exploit/cheat berakibat ban permanen.</li>
+    <li><strong>2.5 Rekaman & Bukti:</strong> Admin dapat meninjau rekaman/performance logs. Pemain wajib kooperatif saat diminta bukti.</li>
+  </ol>
+</section>
+
+<section class="rule" id="3">
+  <h2>3. Aturan IC (In-Character)</h2>
+  <ol class="num">
+    <li><strong>3.1 Konsistensi Karakter:</strong> Jaga konsistensi latar, motivasi, dan kemampuan karakter.</li>
+    <li><strong>3.2 No Powergaming:</strong> Mengontrol tindakan/konsekuensi pemain lain tanpa izin dilarang. Contoh: memaksa pemain untuk melakukan aksi tertentu tanpa RP yang benar.</li>
+    <li><strong>3.3 No Metagaming:</strong> Informasi yang didapat OOC (chat, discords, stream) tidak boleh digunakan IC. Jika kamu melihat pemain stream, itu OOC.
+    </li>
+    <li><strong>3.4 FailRP:</strong> Tindakan yang tidak realistis atau mengabaikan konsekuensi serius (mis. lompat dari gedung tanpa konsekuensi) adalah FailRP.
+    </li>
+    <li><strong>3.5 Combat & Death RP:</strong>
+      <ul>
+        <li>Gunfight harus dijalankan secara wajar — gunakan cover, mundur bila perlu, dan ikuti flow RP.</li>
+        <li>Death RP: Jika karakter mati, pemain harus membuat karakter baru. Respawn tanpa RP kematian yang benar bisa kena sanksi.</li>
+      </ul>
+    </li>
+    <li><strong>3.6 Kidnapping / Hostage:</strong> Tindakan ini memerlukan RP yang mendalam; pastikan semua pihak setuju untuk gimmick yang sensitif, dan jangan gunakan exploit untuk membekukan/menusuk pemain.
+    </li>
+    <li><strong>3.7 Property & Theft:</strong> Mencuri atau merusak properti harus ada proof/IC motive. Server mendorong RP investigasi dan konsekuensi hukum.
+    </li>
+  </ol>
+</section>
+
+<section class="rule" id="4">
+  <h2>4. Aturan OOC (Out-of-Character)</h2>
+  <ol class="num">
+    <li><strong>4.1 Chat OOC:</strong> Gunakan channel OOC yang ditentukan. Jangan OOC chat di area IC (misalnya di radio IC atau sedang RP sensitif).</li>
+    <li><strong>4.2 OOC Insults / Harassment:</strong> OOC abuse terhadap pemain lain dilarang dan akan ditangani sama serius seperti IC abuse.</li>
+    <li><strong>4.3 Bug Reporting:</strong> Laporkan bug melalui sistem resmi. Jangan gunakan bug sebagai alat RP atau OOC keuntungan.
+    </li>
+    <li><strong>4.4 Stream Sniping & Spoilers:</strong> Menggunakan stream/recording orang lain untuk keuntungan OOC -> Metagame -> Dihukum.
+    </li>
+  </ol>
+</section>
+
+<section class="rule" id="5">
+  <h2>5. Break Rules & Pelanggaran (Offenses & Penalties)</h2>
+  <p class="muted">Semua pelanggaran diberi tingkatan (Severity) — 1 (Ringan) sampai 5 (Berat). Tabel di bawah adalah panduan umum.</p>
+  <table class="table">
+    <thead>
+      <tr><th>No</th><th>Pelanggaran</th><th>Tingkat</th><th>Contoh Sanksi</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>5.1</td><td>Minor OOC insult / spam</td><td>1</td><td>Warning / Chat mute 1–24 jam</td></tr>
+      <tr><td>5.2</td><td>Minor Metagaming / Minor FailRP</td><td>2</td><td>Warning / Temporary mute / RP correction</td></tr>
+      <tr><td>5.3</td><td>Powergaming / Repeated FailRP</td><td>3</td><td>Temporary ban 3–14 hari / RP rollback</td></tr>
+      <tr><td>5.4</td><td>Exploit / Cheating / DoXX</td><td>5</td><td>Permanent ban + account report</td></tr>
+      <tr><td>5.5</td><td>Severe OOC harassment / Threats</td><td>4</td><td>Temp ban 14–60 hari / Permanent for repeat</td></tr>
+      <tr><td>5.6</td><td>Abuse of admin powers</td><td>5</td><td>Staff removal / Full investigation</td></tr>
+    </tbody>
+  </table>
+  <ol class="num">
+    <li><strong>5.7 Proses Hukuman:</strong> Investigasi → Bukti dikumpulkan → Pemberitahuan → Hukuman. Pemain punya hak untuk mengajukan banding (lihat pasal 8).</li>
+    <li><strong>5.8 Repeat Offender:</strong> Pengulangan pelanggaran menaikkan level sanksi (skala progresif).</li>
+    <li><strong>5.9 Public Shame / Exposé:</strong> Melakukan penyebaran bukti pelanggaran terhadap staff tanpa checklist dapat menyebabkan sanksi tambahan—gunakan channel appeal resmi.
+    </li>
+  </ol>
+</section>
+
+<section class="rule" id="6">
+  <h2>6. Aturan Khusus (Police, Medics, Gangs, Civilians)</h2>
+  <ol class="num">
+    <li><strong>6.1 Polisi / Penegak Hukum:</strong>
+      <ul>
+        <li>Ikuti SOP penangkapan, HOP (hands-on procedure) dan perilaku bukti. Jangan abuse vehicle/spawn privileges.</li>
+        <li>Tindakan lethal harus dapat dibenarkan (threat posed, backup, verbal commands). Unjustified lethal force = disciplinary action.</li>
+      </ul>
+    </li>
+    <li><strong>6.2 Medics / EMS:</strong> Prioritaskan RP penyelamatan, lakukan triage, dan laporkan MIA/ABANDON kasus yang sensitif ke staff bila ada abuse.</li>
+    <li><strong>6.3 Gangs / Organized Crime:</strong>
+      <ul>
+        <li>Gangs boleh memiliki territory, namun extortion / forced recruitment / RDM non-RP dilarang.</li>
+        <li>Cross-gang events harus ada planning RP — attack order, witnesses, dan konsekuensi hukum.</li>
+      </ul>
+    </li>
+    <li><strong>6.4 Civilians / Businesses:</strong> Pemain yang menjalankan bisnis harus catat transaksi (IC logs) dan tunduk pada hukum IC. Abuse system ekonomi dapat dihukum.
+    </li>
+  </ol>
+</section>
+
+<section class="rule" id="7">
+  <h2>7. Peran Staff & Tugas Admin</h2>
+  <ol class="num">
+    <li><strong>7.1 Tanggung Jawab:</strong> Staff menjaga pengalaman RP, menegakkan aturan, menyelesaikan konflik, dan menangani exploit/bot.</li>
+    <li><strong>7.2 Kode Etik Staff:</strong> Netral saat memutuskan kasus, tidak menggunakan posisi untuk keuntungan OOC, selalu dokumentasikan keputusan besar.
+    </li>
+    <li><strong>7.3 Kewenangan:</strong> Admin dapat melakukan spectate, kick, ban, rollback, dan memaksa RP correction bila perlu.</li>
+    <li><strong>7.4 Pelaporan Abuse Staff:</strong> Bila curiga staff abuse, gunakan form pelaporan internal. Jangan expose tanpa bukti—pengaduan palsu dikenai sanksi.
+    </li>
+  </ol>
+</section>
+
+<section class="rule" id="8">
+  <h2>8. Prosedur Banding & Appeal</h2>
+  <ol class="num">
+    <li><strong>8.1 Pengajuan Banding:</strong> Banding diajukan via form resmi (Discord/Website). Sertakan bukti (screenshots, video, logs) dan kronologi singkat.</li>
+    <li><strong>8.2 Waktu Proses:</strong> Investigasi umumnya 3–14 hari kerja tergantung kompleksitas. (Catatan: durasi bisa beda tergantung kasus.)</li>
+    <li><strong>8.3 Hasil Banding:</strong> Bisa: revoke hukuman, reduce severity, uphold, atau escalate jika bukti baru ditemukan.</li>
+  </ol>
+</section>
+
+<section class="rule" id="9">
+  <h2>9. Glosarium & Singkatan RP</h2>
+  <ol class="num">
+    <li><strong>9.1 OOC:</strong> Out of Character</li>
+    <li><strong>9.2 IC:</strong> In Character</li>
+    <li><strong>9.3 RDM:</strong> Random Deathmatch — membunuh tanpa RP alasan
+    </li>
+    <li><strong>9.4 VDM:</strong> Vehicle Deathmatch — menggunakan kendaraan untuk membunuh tanpa RP alasan
+    </li>
+    <li><strong>9.5 MG:</strong> Metagaming</li>
+    <li><strong>9.6 PG:</strong> Powergaming</li>
+    <li><strong>9.7 SOP:</strong> Standard Operating Procedure
+    </li>
+  </ol>
+</section>
+
+<section class="rule" id="10">
+  <h2>10. Lampiran: Contoh Situasi & FAQ</h2>
+  <ol class="num">
+    <li><strong>10.1 Contoh Metagame:</strong> Mendengar di Discord bahwa target sedang di bank lalu berangkat IC untuk menangkapnya — <em>terlarang</em>.</li>
+    <li><strong>10.2 Contoh Powergame:</strong> Menembak musuh berkali-kali lalu langsung mengeluarkan: "You're dead, you can't do anything" tanpa memberi korban kesempatan merespon — <em>terlarang</em>.</li>
+    <li><strong>10.3 FAQ:</strong>
+      <ul>
+        <li><strong>Q:</strong> "Apa itu RDM?" <strong>A:</strong> Membunuh player tanpa alasan RP yang valid.</li>
+        <li><strong>Q:</strong> "Boleh tak saya rekam RP?" <strong>A:</strong> Boleh, tapi jangan gunakan rekaman itu untuk metagame atau menghina pemain lain.</li>
+      </ul>
+    </li>
+  </ol>
+</section>
+
+<footer>
+  <div class="muted">© SBCRP Server 2025 — Semua hak cipta dilindungi. Dibuat khusus untuk komunitas Roleplay LAC
+
+  </div>
+</body>
+</html>
